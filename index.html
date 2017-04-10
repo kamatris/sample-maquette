@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="web/css/bootstrap.min.css">
+	<link rel="stylesheet" href="web/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="web/css/style.css">
+</head>
+<body>
+
+<div class="container-fluid main">
+	<div class="row first">
+		<div class="col-md-12">
+			<div class="col-md-3 col-sm-12 col-xs-12">
+				<img class="logo" src="web/images/trace.png" alt="">
+			</div>
+			<div class="col-md-9 col-sm-12 col-xs-12">
+				<div class="col-md-9">
+					<div class="msg">
+						<span class="number">200</span>
+						<img src="web/images/trace1.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-3 lang">
+					<a href="#"><img src="web/images/trace3.png" alt=""></a>
+					<a href="#"><img src="web/images/trace4.png" alt=""></a>
+					<a href="#"><img src="web/images/trace2.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row first">
+		<div class="col-md-12">
+			<nav class="col-md-2">
+		        <div class="">
+					<button type="button" id="display" class="btn btn-block">
+		            ASTUCES
+					<span class="pull-right glyphicon glyphicon-align-justify">
+		            </span>
+					</button>
+		        </div>	    
+		        <div class="" id="list">
+					<ul class="list-unstyled">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+		        </div>
+		    </nav>
+		    <div class="col-md-10">
+		    	<div class="row header">
+		    		<a href="#" class="stat">STATISTIQUE</a>
+			    	<a href="#" class="search">Toutes recherches <span class="glyphicon glyphicon-search"></span></a>
+			    	<a href="#" class="element"><span class="disc pull"> </span>10 derniers</a>
+			    	<a href="#" class="element"><span class="disc"> </span>20 derniers</a>
+			    	<a href="#" class="element"><span class="disc"> </span>50 derniers</a>
+		    	</div>
+		    	<div class="row body">
+		    		<table class="tab table">
+		    			<tr>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td> </td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    				<td> </td>
+		    				<td> </td>
+		    				<td> </td>
+		    				<td>
+		    					<div class="input-group">
+		    						<input type="text" class="form-control">
+		    						<span class="input-group-addon glyphicon glyphicon-filter"></span>
+		    					</div>
+		    				</td>
+		    			</tr>
+		    			<tr class="entete">
+		    				<td>
+		    					<a href="#">Essbase<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">Grille<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">Masque<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">User<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">Nom calcul<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">Paramètres<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">D/Début<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">D/Fin<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">H/Début<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">H/Fin<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">Durée<span class="caret"></span></a>
+		    				</td>
+		    				<td>
+		    					<a href="#">Statut<span class="caret"></span></a>
+		    				</td>
+		    			</tr>
+		    			<tr class="list-tab">
+		    				<td>
+		    					element1
+		    				</td>
+		    				<td>
+		    					element2
+		    				</td>
+		    				<td>
+		    					element3
+		    				</td>
+		    				<td>
+		    					element4
+		    				</td>
+		    				<td>
+		    					element5
+		    				</td>
+		    				<td>
+		    					element6
+		    				</td>
+		    				<td>
+		    					element7
+		    				</td>
+		    				<td>
+		    					element8
+		    				</td>
+		    				<td>
+		    					element9
+		    				</td>
+		    				<td>
+		    					element10
+		    				</td>
+		    				<td>
+		    					element11
+		    				</td>
+		    				<td>
+		    					element 12
+		    				</td>
+		    			</tr>
+		    			<tr class="list-tab">
+		    				<td>
+		    					element1
+		    				</td>
+		    				<td>
+		    					element2
+		    				</td>
+		    				<td>
+		    					element3
+		    				</td>
+		    				<td>
+		    					element4
+		    				</td>
+		    				<td>
+		    					element5
+		    				</td>
+		    				<td>
+		    					element6
+		    				</td>
+		    				<td>
+		    					element7
+		    				</td>
+		    				<td>
+		    					element8
+		    				</td>
+		    				<td>
+		    					element9
+		    				</td>
+		    				<td>
+		    					element10
+		    				</td>
+		    				<td>
+		    					element11
+		    				</td>
+		    				<td>
+		    					element 12
+		    				</td>
+		    			</tr>
+		    			<tr class="list-tab">
+		    				<td>
+		    					element1
+		    				</td>
+		    				<td>
+		    					element2
+		    				</td>
+		    				<td>
+		    					element3
+		    				</td>
+		    				<td>
+		    					element4
+		    				</td>
+		    				<td>
+		    					element5
+		    				</td>
+		    				<td>
+		    					element6
+		    				</td>
+		    				<td>
+		    					element7
+		    				</td>
+		    				<td>
+		    					element8
+		    				</td>
+		    				<td>
+		    					element9
+		    				</td>
+		    				<td>
+		    					element10
+		    				</td>
+		    				<td>
+		    					element11
+		    				</td>
+		    				<td>
+		    					element 12
+		    				</td>
+		    			</tr>
+		    			<tr class="list-tab">
+		    				<td>
+		    					element1
+		    				</td>
+		    				<td>
+		    					element2
+		    				</td>
+		    				<td>
+		    					element3
+		    				</td>
+		    				<td>
+		    					element4
+		    				</td>
+		    				<td>
+		    					element5
+		    				</td>
+		    				<td>
+		    					element6
+		    				</td>
+		    				<td>
+		    					element7
+		    				</td>
+		    				<td>
+		    					element8
+		    				</td>
+		    				<td>
+		    					element9
+		    				</td>
+		    				<td>
+		    					element10
+		    				</td>
+		    				<td>
+		    					element11
+		    				</td>
+		    				<td>
+		    					element 12
+		    				</td>
+		    			</tr>
+		    			<tr class="list-tab">
+		    				<td>
+		    					element1
+		    				</td>
+		    				<td>
+		    					element2
+		    				</td>
+		    				<td>
+		    					element3
+		    				</td>
+		    				<td>
+		    					element4
+		    				</td>
+		    				<td>
+		    					element5
+		    				</td>
+		    				<td>
+		    					element6
+		    				</td>
+		    				<td>
+		    					element7
+		    				</td>
+		    				<td>
+		    					element8
+		    				</td>
+		    				<td>
+		    					element9
+		    				</td>
+		    				<td>
+		    					element10
+		    				</td>
+		    				<td>
+		    					element11
+		    				</td>
+		    				<td>
+		    					element 12
+		    				</td>
+		    			</tr>
+		    			<tr class="list-tab">
+		    				<td>
+		    					element1
+		    				</td>
+		    				<td>
+		    					element2
+		    				</td>
+		    				<td>
+		    					element3
+		    				</td>
+		    				<td>
+		    					element4
+		    				</td>
+		    				<td>
+		    					element5
+		    				</td>
+		    				<td>
+		    					element6
+		    				</td>
+		    				<td>
+		    					element7
+		    				</td>
+		    				<td>
+		    					element8
+		    				</td>
+		    				<td>
+		    					element9
+		    				</td>
+		    				<td>
+		    					element10
+		    				</td>
+		    				<td>
+		    					element11
+		    				</td>
+		    				<td>
+		    					element 12
+		    				</td>
+		    			</tr>
+		    		</table>
+		    	</div>
+		    </div>
+		</div>
+	</div>
+</div>
+
+
+<script src="web/lib/jquery.min.js"></script>
+<script src="web/lib/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#display").click(function(){
+			$("#list").slideToggle();
+		})
+	})
+</script>
+</body>
+</html>
